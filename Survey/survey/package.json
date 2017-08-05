@@ -1,0 +1,48 @@
+{
+	"name": "survey",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest"
+	},
+	"dependencies": {
+		"moment": "^2.18.1",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.46.3",
+		"react-native-audio-player": "0.0.2",
+		"react-native-audioplayer": "^0.2.0",
+		"react-native-button": "^2.1.0",
+		"react-native-button-component": "^0.1.18",
+		"react-native-circular-progress": "0.0.8",
+		"react-native-circular-slider": "^1.0.1",
+		"react-native-customisable-switch": "^0.1.0",
+		"react-native-fit-image": "^1.4.9",
+		"react-native-img-button": "^1.0.1",
+		"react-native-list-popover": "^1.0.5",
+		"react-native-list-view-select": "^1.0.4",
+		"react-native-material-switch": "0.0.4",
+		"react-native-percentage-circle": "^1.0.6",
+		"react-native-progress": "^3.3.0",
+		"react-native-progress-circle": "^1.0.3",
+		"react-native-progress-circular": "^0.1.0",
+		"react-native-simple-sound": "^1.0.0",
+		"react-native-slider": "^0.10.0",
+		"react-native-sound": "^0.10.3",
+		"react-native-sound-player": "^0.2.1",
+		"react-native-svg": "^5.3.0",
+		"react-native-switch": "^1.1.0",
+		"react-navigation": "^1.0.0-beta.11",
+		"react-progressbar.js": "^0.2.0",
+		"react-timer-mixin": "^0.13.3"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"babel-preset-react-native": "2.1.0",
+		"jest": "20.0.4",
+		"react-test-renderer": "16.0.0-alpha.12"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}

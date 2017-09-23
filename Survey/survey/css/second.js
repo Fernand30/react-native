@@ -1,0 +1,48 @@
+module.exports = {
+  "container":{
+    flex:1,
+    justifyContent:'center',
+    backgroundColor:'#4a90e2',
+    padding:5,
+  },
+  "scrollView": {
+    margin: 10,
+    paddingBottom: 20,
+    justifyContent: 'flex-start',
+    alignItems: 'stretch',
+  },
+  "track": {
+    height: 18,
+    borderRadius: 1,
+    backgroundColor: '#ff0000',
+  },
+  "thumb": {
+    width: 20,
+    height: 30,
+    borderRadius: 1,
+    backgroundColor: '#838486',
+  },
+  "headerView":{
+    flex:1,
+    backgroundColor:'transparent',
+    alignItems:'center',
+  },
+  "bodyView":{
+    flex:9,
+    backgroundColor:'#ffffff',
+  },
+  "headText":{textAlign:'center',marginTop:24,fontSize:28,color:'#ffffff'},
+  "imagestyle":{marginTop:95,marginLeft:0,resizeMode: 'contain',},
+  "imageView":{flex:4.2,backgroundColor:'transparent',alignItems:'center',},
+  "textView":{flex:1,backgroundColor:'transparent',},
+  "smallTextView":{flexDirection:'row',flex:1,backgroundColor:'transparent',},
+  "sliderView":{flex:3,backgroundColor:'transparent',paddingTop:0,paddingLeft:0,paddingRight:0,},
+  "underView":{flex:2,backgroundColor:'transparent',flexDirection:'row',},
+  "leftButton":{marginTop:40,marginLeft:25,fontSize: 18, color: '#4a90e2',fontWeight:'400',},
+  "rightButton":{marginTop:40,marginRight:25,fontSize: 18, color: '#4a90e2',fontWeight:'400',},
+  "circle1": {marginTop:50,width: 10,height: 6,borderRadius: 5,backgroundColor: '#bcbec0',borderWidth:1,borderColor:'#bcbec0'},
+  "circle2": {marginTop:50,width: 10,height: 6,borderRadius: 5,backgroundColor: '#bcbec0',borderWidth:1,borderColor:'#bcbec0'},
+  "circle3": {marginTop:50,width: 10,height: 6,borderRadius: 5,backgroundColor: '#bcbec0',borderWidth:1,borderColor:'#bcbec0'},
+  "circle4": {marginTop:50,width: 10,height: 6,borderRadius: 5,backgroundColor: '#bcbec0',borderWidth:1,borderColor:'#bcbec0'},
+  "circle5": {marginTop:50,width: 10,height: 6,borderRadius: 5,backgroundColor: '#ffffff',borderWidth:1,borderColor:'#bcbec0'},
+}

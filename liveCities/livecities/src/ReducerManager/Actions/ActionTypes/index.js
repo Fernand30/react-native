@@ -1,0 +1,15 @@
+import { createTypes } from 'reduxsauce';
+
+export default createTypes(`
+  SET_CREDENTIAL_EMAIL
+  SET_FIRSTNAME_LASTNAME
+  SET_CREDENTIAL_PASSWORD
+  SET_AVATAR
+  SET_LOGIN_STATUS
+  LOAD_RESOURCE
+  LOAD_TASK
+  LOAD_SKILLS
+  
+  ADD_SKILL
+  SET_SKILL_LIST
+`);
